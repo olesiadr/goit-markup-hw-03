@@ -420,6 +420,7 @@ img {
   line-height: 2;
   letter-spacing: 0.06em;
   margin-top: 20px;
+  margin-left: 24px;
 }
 .project-item-text {
   color: var(--primary-text-color);
@@ -430,6 +431,8 @@ img {
   line-height: 1.87;
   letter-spacing: 0.03em;
   margin-top: 4px;
+  margin-bottom: 20px;
+  margin-left: 24px;
 }
 /* .projects-list {
   margin-right: var(--main-margin);
