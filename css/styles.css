@@ -167,13 +167,14 @@ img {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  margin-right: var(--header-margin-hmargin);
 }
 /* .contacts-item .contact {
   margin-right: var(--header-margin-hmargin);
 } */
-
-.contacts > .contact:last-child {
+.mail {
+  margin-right: var(--header-margin-hmargin);
+}
+.telephone {
   margin-right: 0;
 }
 .contacts .contact:hover,
