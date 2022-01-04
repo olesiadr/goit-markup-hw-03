@@ -283,6 +283,7 @@ img {
 /* Наша команда */
 .team {
   background-color: var(--secondary-background-color);
+  padding-top: var(--section-padding-top-bottom-inside-margin);
 }
 
 .team-title {
@@ -294,7 +295,6 @@ img {
   line-height: 1.67;
   text-align: center;
   letter-spacing: 0.03em;
-  padding-top: var(--section-padding-top-bottom-inside-margin);
   margin-bottom: var(--header-margin-hmargin);
 }
 
@@ -304,6 +304,7 @@ img {
 }
 
 .team-item {
+  background-color: var(--primary-white-color);
   display: inline-block;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -337,13 +338,13 @@ img {
 }
 .page-footer {
   background-color: var(--navigationfooter-background-color);
+  padding-top: 60px;
 }
 /* Подвал */
 .address-list .link {
   color: var(--primary-white-color);
 }
 .logofooter {
-  padding-top: 60px;
   margin-bottom: 20px;
 }
 .address-list {
